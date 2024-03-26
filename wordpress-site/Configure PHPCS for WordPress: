@@ -1,0 +1,7 @@
+# We need to specify the WordPress coding standards in the phpcs.xml.dist file in the root directory of your WordPress component repository:
+<?xml version="1.0"?>
+<ruleset name="WordPress-VIP">
+    <description>Custom ruleset for WordPress VIP coding standards.</description>
+    <config name="installed_paths" value="~/.composer/vendor/wp-coding-standards/wpcs"/>
+    <rule ref="WordPress-VIP"/>
+</ruleset>
