@@ -1,0 +1,2 @@
+# Run the following commands to install PHPCS and the WordPress coding standards:
+composer global require wp-coding-standards/wpcs
