@@ -1,0 +1,8 @@
+  We have to create configuration file i.e .prettierrc in the root directory of your Next.js/TypeScript component repository:
+{
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "printWidth": 80
+}
