@@ -1,0 +1,12 @@
+# We have to create ESLint configuration file i.e .eslintrc.js in the root directory of your Next.js/TypeScript component repository:
+module.exports = {
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
+    extends: [
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+        'plugin:prettier/recommended',
+    ],
+    rules: {},
+};
+
